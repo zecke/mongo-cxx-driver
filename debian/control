@@ -11,7 +11,7 @@ Homepage: http://github.com/zecke/mongo-cxx-driver
 Package: libmongoclient-dev
 Section: libdevel
 Architecture: any
-Depends: libmongoclient (= ${binary:Version})
+Depends: libmongoclient (= ${binary:Version}), libboost-thread-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-date-time-dev, libboost-regex-dev
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
