@@ -1,7 +1,7 @@
 Source: mongo-cxx-driver
 Priority: optional
 Maintainer: hfreyther <hfreyther@unknown>
-Build-Depends: debhelper (>= 8.0.0), scons, libboost-thread-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-date-time-dev, libboost-regex-dev, libssl-dev, libsasl2-dev
+Build-Depends: debhelper (>= 8.0.0), scons, libboost-thread-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-date-time-dev, libboost-regex-dev, libssl-dev, libsasl2-dev, libcurl4-openssl-dev
 Standards-Version: 3.9.4
 Section: libs
 Homepage: http://github.com/zecke/mongo-cxx-driver
